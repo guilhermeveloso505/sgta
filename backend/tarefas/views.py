@@ -1,5 +1,6 @@
 from django.http import JsonResponse
 from .models import Tarefa
+from usuarios.models import Usuario
 
 def listar_tarefas(request):
     tarefas = Tarefa.objects.all().values()
