@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',  # serve arquivos estáticos (CSS, JS, imagens)
     'tarefas',                     # nosso app de tarefas acadêmicas
     'usuarios',                    # nosso app de usuários
+    'professores',
 ]
 
 
